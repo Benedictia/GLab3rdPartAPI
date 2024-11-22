@@ -6,10 +6,10 @@ export async function getAllStarships() {
         throw new Error('Failed to fetch starships');
       }
       const data = await response.json();
-      return data.results;  // Return the list of starships
+      return data.results;  
     } catch (error) {
       console.error(error);
-      return [];  // Return an empty array in case of error
+      return []; 
     }
   }
   
