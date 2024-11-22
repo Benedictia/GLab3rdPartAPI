@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;  
+  padding-top: 20px;   
+}
+.starship-cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  flex-wrap: wrap;
+  
+  gap: 20px;
+  justify-content: center;
+}
+
+.starship-card {
+  border: 1px solid #ccc;
+  background-color: lightslategrey;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+ 
+  text-align: center;
+  color: #333;
+}
